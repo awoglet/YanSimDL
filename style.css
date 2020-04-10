@@ -1,31 +1,14 @@
 body {
     background-color: #fff;
     margin: 0;
-    padding: 0;
+    padding: 2em;
     font-family: "Consolas", monospace;
     font-size: 10pt;
 }
 
-.content {
-    padding: 30px;
-}
-
-h1 {
-    margin: 0;
-}
-h2, h3, h4, h5 {
-    margin: 8px 0;
-}
-ul {
-    padding-left: 18px;
-}
-.tab {
-    margin-left: 16px;
-}
-img {
-    vertical-align: bottom;
-}
-
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+p { margin: 1em 0; }
+img { vertical-align: bottom; }
 a:link, a:visited {
     color: #44b;
     text-decoration: none;
@@ -34,13 +17,10 @@ a:link:hover {
     text-decoration: underline;
 }
 
-.original {
-    color: #090 !important;
-}
-.rezipped {
-    color: #f80 !important;
-}
-.missing {
-    color: #aaa !important;
-    font-style: oblique;
-}
+* > :first-child { margin-top: 0 !important; }
+* > :last-child { margin-bottom: 0 !important; }
+
+.tab { margin: 1em 0 1em 2ch; }
+.original { color: #090 !important; }
+.rezipped { color: #f80 !important; }
+.missing { color: #aaa !important; font-style: oblique; }
